@@ -1,0 +1,177 @@
+.form-holder {
+    margin: auto;
+    max-width: 414px
+}
+
+.form-title {
+    text-align: center
+}
+
+.form-holder ul,
+.form-holder li {
+    list-style: none;
+    padding: 0
+}
+
+.form-row {
+    position: relative;
+    display: block;
+    background: #fff;
+    margin-bottom: 10px;
+    border: 4px solid #d7b233
+}
+
+.form-row:hover {
+    border: 4px solid #a58412
+}
+
+.form-control {
+/*    font-family: bein;*/
+    color: #676767;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    border: none
+}
+
+textarea.form-control {
+    height: 75px;
+    padding-top: 7px;
+    line-height: 19px
+}
+
+.form-control:focus {
+    border: none;
+    outline: none;
+    background-color: #f4f4f4
+}
+
+.rtl .form-control {
+    direction: rtl;
+    padding-right: 36px
+}
+
+.form-row .intl-tel-input {
+    width: 100%
+}
+
+.form-row .intl-tel-input input {
+    direction: ltr;
+/*    font-family: Arial;*/
+}
+
+.captcha {
+    background-color: #fdfdfd;
+    border-top: 1px solid #e1e1e1;
+    direction: ltr!important
+}
+
+.form-submit {
+    display: block;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+    border: 0;
+/*    font-family: bein;*/
+    background: #d8b65f;
+    background: -moz-linear-gradient(left, #d4a10f 1%, #FFFFD6 50%, #d4a10f 100%);
+    background: -webkit-linear-gradient(left, #d4a10f 1%, #FFFFD6 50%, #d4a10f 100%);
+    background: ;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d8b65f', endColorstr='#d8b65f', GradientType=1);
+    height: 45px;
+    color: #0d1c2f;
+    font-size: 21px;
+    -moz-border-radius: 350px;
+    -webkit-border-radius: 350px;
+    -khtml-border-radius: 350px;
+    border-radius: 350px;
+    transition: opacity ease .4s
+}
+
+.form-submit:hover {
+    opacity: .7;
+    transition: opacity ease .4s
+}
+
+.contact-error {
+    background: red;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    z-index: 5;
+    padding: 3px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 10pt
+}
+
+.contact-error:after,
+.contact-error:before {
+    bottom: 100%;
+    right: 0;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.contact-error:after {
+    border-color: transparent;
+    border-bottom-color: red;
+    border-width: 6px;
+    margin-right: 10px
+}
+
+.contact-error:before {
+    border-color: transparent;
+    border-bottom-color: red;
+    border-width: 36px;
+    margin-right: 10px;
+    border-width: 6px;
+    margin-left: 10px
+}
+
+.form-control.inputError {
+    background-color: #fee1e1;
+    border: 1px solid #f31313
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 24px
+}
+
+.icon-name {
+    background-image: url(../img/form/user.svg)
+}
+
+.icon-email {
+    background-image: url(../img/form/mail.svg)
+}
+
+.icon-phone {
+    background-image: url(../img/form/phone.svg)
+}
+
+.icon-time {
+    background-image: url(../img/form/clock.svg)
+}
+
+.icon-message {
+    background-image: url(../img/form/message.svg);
+    background-position: 98% 10%
+}
